@@ -22,7 +22,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1 class="mr-2">Mingalaba</h1>
+      <h1 class="mr-2">Swastika Yadav</h1>
       <a
         target="_blank"
         href="/rss.xml"
@@ -40,16 +40,16 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       </a>
 
       <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
+        Hey there 👋
+        I am Swastika! A Developer Relations Engineer. I build and write for developers. <br>
+        
+        I can help you with scaling a Product, building use case applications, writing tutorial blogs and documentation, and plan strategies for product/feature launches. 
       </p>
       <p>
         Read the blog posts or check
         <LinkButton
           className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
-          href="https://github.com/satnaing/astro-paper#readme"
+          href="gh repo clone swastika0015/swastika-portfolio/readme"
         >
           README
         </LinkButton> for more info.
@@ -67,7 +67,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 
     <Hr />
 
-    {
+    <!-- {
       featuredPosts.length > 0 && (
         <>
           <section id="featured">
@@ -85,10 +85,28 @@ const socialCount = SOCIALS.filter(social => social.active).length;
           <Hr />
         </>
       )
-    }
+    } -->
 
     <section id="recent-posts">
-      <h2>Recent Posts</h2>
+      <h2>Blogs</h2>
+      <ul>
+        {
+          sortedPosts
+            .filter(({ data }) => !data.featured)
+            .map(
+              ({ data, slug }, index) =>
+                index < 4 && (
+                  <Card
+                    href={`/posts/${slug}`}
+                    frontmatter={data}
+                    secHeading={false}
+                  />
+                )
+            )
+        }
+
+    <section id="recent-posts">
+      <h2>Blogs</h2>
       <ul>
         {
           sortedPosts
