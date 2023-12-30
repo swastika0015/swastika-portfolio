@@ -1,14 +1,14 @@
 ---
 author: Sat Naing
 pubDatetime: 2022-12-28T04:59:04.866Z
-title: Dynamic OG image generation in AstroPaper blog posts
+title: Deploy your website to Netlify in 2 mins.
 slug: dynamic-og-image-generation-in-astropaper-blog-posts
 featured: false
 draft: false
 tags:
   - docs
   - release
-description: New feature in AstroPaper v1.4.0, introducing dynamic OG image generation for blog posts.
+description: NETLIFY is a platform that offers hosting and serverless backend services for web applications and static websites in just a few clicks.
 ---
 
 New feature in AstroPaper v1.4.0, introducing dynamic OG image generation for blog posts.
