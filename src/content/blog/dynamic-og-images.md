@@ -3,6 +3,7 @@ author: Sat Naing
 pubDatetime: 2022-12-28T04:59:04.866Z
 title: Deploy your website to Netlify in 2 mins.
 slug: dynamic-og-image-generation-in-astropaper-blog-posts
+link: https://medium.com/@swastika0015/deploy-your-website-to-netlify-in-2-mins-733c46326fc6
 featured: false
 draft: false
 tags:

@@ -3,6 +3,7 @@ title: Best practices to improve code quality
 author: Swastika Yadav
 pubDatetime: 2023-09-20T15:33:05.569Z
 slug: how-to-update-dependencies
+link: url
 featured: false
 draft: false
 ogImage: /assets/forrest-gump-quote.webp

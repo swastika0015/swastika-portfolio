@@ -4,6 +4,7 @@ author: Sat Naing
 pubDatetime: 2023-03-21T10:11:06.130Z
 modDatetime: 2023-12-26T08:39:25.181Z
 slug: create-a-todo-list-with-turso-and-next.js
+link: https://medium.com/chiselstrike/create-a-todo-list-with-turso-and-next-js-e894489de62a
 featured: false
 draft: false
 tags:

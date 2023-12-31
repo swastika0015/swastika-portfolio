@@ -1,8 +1,9 @@
 ---
 title: "ChiselNow: Get a fully functional CRUD API in minutes"
 author: Sat Naing
-pubDatetime: 2022-09-21T05:17:19Z
+pubDatetime: 2022-11-21T05:17:19Z
 slug: how-to-connect-astro-paper-blog-with-forestry-cms
+link: https://medium.com/chiselstrike/chiselnow-get-a-fully-functional-crud-api-in-minutes-9dccfe976c37
 featured: false
 draft: false
 tags:

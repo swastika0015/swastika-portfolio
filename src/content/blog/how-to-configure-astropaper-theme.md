@@ -1,14 +1,15 @@
 ---
 author: Sat Naing
-pubDatetime: 2022-09-23T04:58:53Z
-title: How to configure AstroPaper theme
+pubDatetime: 2022-08-26T04:58:53Z
+title: What Is Test Environment? A Guide To Managing Your Testing
 slug: how-to-configure-astropaper-theme
+link: "n"
 featured: true
 draft: false
 tags:
   - configuration
   - docs
-description: How you can make AstroPaper theme absolutely yours.
+description: No software can sustain itself in the market without testing – Do you agree? Yes? That’s cool! Testing is crucial in any software development life cycle.
 ---
 
 AstroPaper is a highly customizable Astro blog theme. With AstroPaper, you can customize everything according to your personal taste. This article will explain how you can make some customizations easily in the config file.

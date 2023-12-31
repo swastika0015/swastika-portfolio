@@ -1,15 +1,13 @@
 ---
 author: Sat Naing
 pubDatetime: 2022-09-26T12:13:24Z
-title: Predefined color schemes
-slug: predefined-color-schemes
+title: Weather app pwith ChatGPT
+slug: weather-app-with-chatgpt
 featured: false
 draft: false
 tags:
   - color-schemes
-description:
-  Some of the well-crafted, predefined color schemes for AstroPaper blog
-  theme.
+description: Building an AI Weather App with ChatGPT-4 using Next.js, React, Tremor, StepZen and GraphQL.
 ---
 
 I've crafted some predefined color schemes for this AstroPaper blog theme. You can replace these color schemes with the original ones.
