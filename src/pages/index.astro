@@ -43,7 +43,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         Hey there 👋
         I am Swastika! A Developer Relations Engineer. I build and write for developers. <br>
         
-        I can help you with scaling a Product, building use case applications, writing tutorial blogs and documentation, and plan strategies for product/feature launches. 
+        I can help you with scaling a Product, building use case applications, writing tutorial blogs and documentation, Product/feature launch strategies. 
       </p>
       <p>
         Read the blog posts or check
@@ -88,6 +88,23 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     } -->
 
     <section id="recent-posts">
+      <h2>Blogs</h2>
+      <ul>
+        {
+          sortedPosts
+            .filter(({ data }) => !data.featured)
+            .map(
+              ({ data, slug }, index) =>
+                index < 4 && (
+                  <Card
+                    href={`/posts/${slug}`}
+                    frontmatter={data}
+                    secHeading={false}
+                  />
+                )
+            )
+        }
+            <section id="recent-posts">
       <h2>Blogs</h2>
       <ul>
         {
