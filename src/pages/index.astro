@@ -7,6 +7,7 @@ import LinkButton from "@components/LinkButton.astro";
 import Hr from "@components/Hr.astro";
 import Card from "@components/Card";
 import Socials from "@components/Socials.astro";
+import Skills from "@components/Skills.astro";
 import getSortedPosts from "@utils/getSortedPosts";
 import { SOCIALS } from "@config";
 
@@ -86,6 +87,13 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         </>
       )
     } -->
+
+    <section id="skills">
+      <p>
+        <h2>Skills</h2>
+        <Skills/>
+      </p>
+    </section>
 
     <section id="recent-posts">
       <h2>Recent Blogs</h2>
@@ -172,6 +180,13 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   }
   #featured h2,
   #recent-posts h2 {
+    @apply text-2xl font-semibold tracking-wide;
+  }
+
+  #skills {
+    @apply pb-6 pt-12;
+  }
+  #skills h2 {
     @apply text-2xl font-semibold tracking-wide;
   }
   .all-posts-btn-wrapper {
