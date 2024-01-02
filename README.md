@@ -10,7 +10,11 @@ AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro blog them
 
 This theme follows best practices and provides accessibility out of the box. Light and dark mode are supported by default. Moreover, additional color schemes can also be configured.
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. Read [the blog posts](https://astro-paper.pages.dev/posts/) or check [the README Documentation Section](#-documentation) for more info.
+## Customization
+
+I have customized the Astropaper blog theme to make it a portfolio website by including the projects with the recent blogs.
+
+In future, I will be adding more features like skills or talk. It can be done by creating new directory in `src/content` and making the relevant changes.
 
 ## 🔥 Features
 
@@ -26,16 +30,6 @@ This theme is self-documented \_ which means articles/posts in this theme can al
 - [x] followed best practices
 - [x] highly customizable
 - [x] dynamic OG image generation for blog posts [#15](https://github.com/satnaing/astro-paper/pull/15) ([Blog Post](https://astro-paper.pages.dev/posts/dynamic-og-image-generation-in-astropaper-blog-posts/))
-
-_Note: I've tested screen-reader accessibility of AstroPaper using **VoiceOver** on Mac and **TalkBack** on Android. I couldn't test all other screen-readers out there. However, accessibility enhancements in AstroPaper should be working fine on others as well._
-
-## ✅ Lighthouse Score
-
-<p align="center">
-  <a href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fastro-paper.pages.dev%2F&form_factor=desktop">
-    <img width="710" alt="AstroPaper Lighthouse Score" src="AstroPaper-lighthouse-score.svg">
-  <a>
-</p>
 
 ## 🚀 Project Structure
 
@@ -56,8 +50,9 @@ Inside of AstroPaper, you'll see the following folders and files:
 │   │   └── socialIcons.ts
 │   ├── components/
 │   ├── content/
-│   │   |  blog/
-│   │   |    └── some-blog-posts.md
+│   │   | |  |
+|   |   | |  └── blog/some-blog-posts.md
+│   │   | └── projects/some-blog-posts.md
 │   │   └── config.ts
 │   ├── layouts/
 │   └── pages/
@@ -73,17 +68,7 @@ Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page
 Any static assets, like images, can be placed in the `public/` directory.
 
 All blog posts are stored in `src/content/blog` directory.
-
-## 📖 Documentation
-
-Documentation can be read in two formats\_ _markdown_ & _blog post_.
-
-- Configuration - [markdown](src/content/blog/how-to-configure-astropaper-theme.md) | [blog post](https://astro-paper.pages.dev/posts/how-to-configure-astropaper-theme/)
-- Add Posts - [markdown](src/content/blog/adding-new-post.md) | [blog post](https://astro-paper.pages.dev/posts/adding-new-posts-in-astropaper-theme/)
-- Customize Color Schemes - [markdown](src/content/blog/customizing-astropaper-theme-color-schemes.md) | [blog post](https://astro-paper.pages.dev/posts/customizing-astropaper-theme-color-schemes/)
-- Predefined Color Schemes - [markdown](src/content/blog/predefined-color-schemes.md) | [blog post](https://astro-paper.pages.dev/posts/predefined-color-schemes/)
-
-> For AstroPaper v1, check out [this branch](https://github.com/satnaing/astro-paper/tree/astro-paper-v1) and this [live URL](https://astro-paper-v1.astro-paper.pages.dev/)
+All projects are stored in `src/content/project` directory.
 
 ## 💻 Tech Stack
 
@@ -98,30 +83,6 @@ Documentation can be read in two formats\_ _markdown_ & _blog post_.
 **Deployment** - [Cloudflare Pages](https://pages.cloudflare.com/)  
 **Illustration in About Page** - [https://freesvgillustration.com](https://freesvgillustration.com/)  
 **Linting** - [ESLint](https://eslint.org)
-
-## 👨🏻‍💻 Running Locally
-
-The easiest way to run this project locally is to run the following command in your desired directory.
-
-```bash
-# npm 6.x
-npm create astro@latest --template satnaing/astro-paper
-
-# npm 7+, extra double-dash is needed:
-npm create astro@latest -- --template satnaing/astro-paper
-
-# yarn
-yarn create astro --template satnaing/astro-paper
-```
-
-## Google Site Verification (optional)
-
-You can easily add your [Google Site Verification HTML tag](https://support.google.com/webmasters/answer/9008080#meta_tag_verification&zippy=%2Chtml-tag) in AstroPaper using environment variable. This step is optional. If you don't add the following env variable, the google-site-verification tag won't appear in the html `<head>` section.
-
-```bash
-# in your environment variable file (.env)
-PUBLIC_GOOGLE_SITE_VERIFICATION=your-google-site-verification-value
-```
 
 ## 🧞 Commands
 
@@ -147,12 +108,4 @@ All commands are run from the root of the project, from a terminal:
 
 ## ✨ Feedback & Suggestions
 
-If you have any suggestions/feedback, you can contact me via [my email](mailto:contact@satnaing.dev). Alternatively, feel free to open an issue if you find bugs or want to request new features.
-
-## 📜 License
-
-Licensed under the MIT License, Copyright © 2023
-
----
-
-Made with 🤍 by [Sat Naing](https://satnaing.dev) 👨🏻‍💻 and [contributors](https://github.com/satnaing/astro-paper/graphs/contributors).
+If you have any suggestions/feedback, feel free to share. Alternatively, feel free to open an issue if you find bugs or want to request new features.
