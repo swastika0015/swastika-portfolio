@@ -1,7 +1,7 @@
 ---
 
 title: Todo List with Turso DB
-author: Sat Naing
+author: Swastika Yadav
 pubDatetime: 2022-03-25T16:55:12.000+00:00
 slug: Turso-Nextjs-Todo-List
 number: 2
@@ -14,4 +14,5 @@ tags:
 - database
 - react
 - fullstack
-  description: "A fullstack To-Do List app using Turso and Nextjs"
+
+description: "A fullstack To-Do List app using Turso and Nextjs"

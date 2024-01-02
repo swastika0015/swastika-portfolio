@@ -1,17 +1,15 @@
 ---
-title: "ChiselNow: Get a fully functional CRUD API in minutes"
+title: "Best practices to improve code quality"
 author: Swastika Yadav
-pubDatetime: 2022-11-21T05:17:19Z
-slug: how-to-connect-astro-paper-blog-with-forestry-cms
-link: https://medium.com/chiselstrike/chiselnow-get-a-fully-functional-crud-api-in-minutes-9dccfe976c37
+pubDatetime: 2023-8-25T05:17:19Z
+slug: Best-practices-to-improve-code-quality
+link: https://shiftsync.tricentis.com/development-methodologies-46/best-practices-to-improve-code-quality-453
 featured: false
 draft: false
 tags:
-  - api
-  - backend
-  - blog
+  - code
 ogImage: https://res.cloudinary.com/noezectz/v1663745737/astro-paper/astropaper-x-forestry-og_kqfwp0.png
-description: The fastest and easiest way to create a full CRUD API. I don’t think there’s anything better than ChiselNow for it.
+description: Ensuring and maintaining code quality in today’s world of continuous development, integration, and deployment is a matter of concern for organizations. They need to build, maintain, and integrate new features into their products
 ---
 
 > Important!!! Forestry is going to be discontinued on April 22nd, 2023. You can [read their announcement](https://forestry.io/blog/forestry.io-end-of-life/) for more info.

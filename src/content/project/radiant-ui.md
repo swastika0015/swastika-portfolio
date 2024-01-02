@@ -1,6 +1,6 @@
 ---
 title: Radiant UI
-author: Sat Naing
+author: Swastika Yadav
 pubDatetime: 2022-03-25T16:55:12.000+00:00
 slug: radiant-ui
 number: 3

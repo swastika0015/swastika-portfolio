@@ -1,5 +1,5 @@
 ---
-author: Sat Naing
+author: Swastika Yadav
 pubDatetime: 2022-08-26T04:58:53Z
 title: What Is Test Environment A Guide To Managing Your Testing
 slug: What-Is-Test-Environment-A-Guide-To-Managing-Your-Testing
@@ -26,7 +26,7 @@ During deveopment, it's okay to leave `SITE.website` empty. But in production mo
 // file: src/config.ts
 export const SITE = {
   website: "https://astro-paper.pages.dev/",
-  author: "Sat Naing",
+  author: "Swastika Yadav",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
   title: "AstroPaper",
   ogImage: "astropaper-og.jpg",

@@ -1,5 +1,5 @@
 ---
-author: Sat Naing
+author: Swastika Yadav
 pubDatetime: 2022-12-28T04:59:04.866Z
 title: Deploy your website to Netlify in 2 mins.
 slug: Deploy-your-website-to-Netlify-in-2-mins

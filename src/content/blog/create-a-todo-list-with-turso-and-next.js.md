@@ -1,6 +1,6 @@
 ---
 title: Create a todo list with Turso and Next.js
-author: Sat Naing
+author: Swastika Yadav
 pubDatetime: 2023-03-21T10:11:06.130Z
 modDatetime: 2023-12-26T08:39:25.181Z
 slug: create-a-todo-list-with-turso-and-next.js

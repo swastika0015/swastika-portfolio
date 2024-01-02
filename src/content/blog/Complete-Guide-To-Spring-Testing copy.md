@@ -1,9 +1,9 @@
 ---
-title: "ChiselNow: Get a fully functional CRUD API in minutes"
+title: "The two contradicting meanings of my name and its consequences"
 author: Swastika Yadav
-pubDatetime: 2022-11-21T05:17:19Z
-slug: how-to-connect-astro-paper-blog-with-forestry-cms
-link: https://medium.com/chiselstrike/chiselnow-get-a-fully-functional-crud-api-in-minutes-9dccfe976c37
+pubDatetime: 2022-10-27T05:17:19Z
+slug: The-two-contradicting-meanings-of-my-name-and-its-consequences
+link: https://medium.com/@swastika0015/the-alternate-meaning-of-my-name-and-its-consequences-8aa4e6d30b45
 featured: false
 draft: false
 tags:
@@ -11,7 +11,7 @@ tags:
   - backend
   - blog
 ogImage: https://res.cloudinary.com/noezectz/v1663745737/astro-paper/astropaper-x-forestry-og_kqfwp0.png
-description: The fastest and easiest way to create a full CRUD API. I don’t think there’s anything better than ChiselNow for it.
+description: Software testing is a non-negotiable aspect of the software development life cycle. Setting up and moving on with software testing might be a tedious task. You or your team may feel stuck devising a testing strategy or picking up a testing framework. However,
 ---
 
 > Important!!! Forestry is going to be discontinued on April 22nd, 2023. You can [read their announcement](https://forestry.io/blog/forestry.io-end-of-life/) for more info.
