@@ -7,13 +7,14 @@ import LinkButton from "@components/LinkButton.astro";
 import Hr from "@components/Hr.astro";
 import Card from "@components/Card";
 import Socials from "@components/Socials.astro";
-import Skills from "@components/Skills.astro";
 import getSortedPosts from "@utils/getSortedPosts";
+import getProjects from "@utils/getProjects";
 import { SOCIALS } from "@config";
 
 const posts = await getCollection("blog");
-
+const projects = await getCollection("project")
 const sortedPosts = getSortedPosts(posts);
+const sortedProjects = getProjects(projects)
 const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
 
 const socialCount = SOCIALS.filter(social => social.active).length;
@@ -110,8 +111,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       <h2>Projects</h2>
       <ul>
         {
-          sortedPosts
-            .filter(({ data }) => !data.featured)
+          sortedProjects
             .map(
               ({ data, slug, link }, index) =>
                 index < 4 && (

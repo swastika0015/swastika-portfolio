@@ -3,6 +3,8 @@ author: Sat Naing
 pubDatetime: 2022-09-26T12:13:24Z
 title: Weather app pwith ChatGPT
 slug: weather-app-with-chatgpt
+number: 1
+link: https://github.com/swastika0015/weather-app-with-ChatGPT
 featured: false
 draft: false
 tags:

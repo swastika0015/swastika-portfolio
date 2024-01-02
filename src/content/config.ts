@@ -6,7 +6,7 @@ const blog = defineCollection({
   schema: ({ image }) =>
     z.object({
       author: z.string().default(SITE.author),
-      pubDatetime: z.date(),
+      pubDatetime: z.date().optional(),
       modDatetime: z.date().optional(),
       title: z.string(),
       link: z.string(),
@@ -24,4 +24,27 @@ const blog = defineCollection({
     }),
 });
 
-export const collections = { blog };
+const project = defineCollection({
+  type: "content",
+  schema: ({ image }) =>
+    z.object({
+      author: z.string().default(SITE.author),
+      pubDatetime: z.date().optional(),
+      modDatetime: z.date().optional(),
+      number: z.number(),
+      title: z.string(),
+      link: z.string(),
+      featured: z.boolean().optional(),
+      draft: z.boolean().optional(),
+      ogImage: image()
+        .refine(img => img.width >= 1200 && img.height >= 630, {
+          message: "OpenGraph image must be at least 1200 X 630 pixels!",
+        })
+        .or(z.string())
+        .optional(),
+      description: z.string(),
+      canonicalURL: z.string().optional(),
+    }),
+});
+
+export const collections = { blog, project };
