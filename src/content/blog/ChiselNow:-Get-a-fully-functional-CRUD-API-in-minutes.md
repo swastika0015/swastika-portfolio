@@ -7,9 +7,9 @@ link: https://medium.com/chiselstrike/chiselnow-get-a-fully-functional-crud-api-
 featured: false
 draft: false
 tags:
-  - docs
-  - forestry-cms
-  - astro-paper
+  - api
+  - backend
+  - blog
 ogImage: https://res.cloudinary.com/noezectz/v1663745737/astro-paper/astropaper-x-forestry-og_kqfwp0.png
 description: The fastest and easiest way to create a full CRUD API. I don’t think there’s anything better than ChiselNow for it.
 ---

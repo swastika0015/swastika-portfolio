@@ -1,7 +1,7 @@
 import { LOCALE } from "@config";
 
 interface DatetimesProps {
-  pubDatetime: string | Date;
+  pubDatetime: string | Date | undefined;
   modDatetime: string | Date | undefined;
 }
 
@@ -54,17 +54,18 @@ const FormattedDatetime = ({ pubDatetime, modDatetime }: DatetimesProps) => {
     day: "numeric",
   });
 
-  const time = myDatetime.toLocaleTimeString(LOCALE.langTag, {
-    hour: "2-digit",
-    minute: "2-digit",
-  });
+  // const time = myDatetime.toLocaleTimeString(LOCALE.langTag, {
+  //   hour: "2-digit",
+  //   minute: "2-digit",
+  // });
 
   return (
     <>
       <time dateTime={myDatetime.toISOString()}>{date}</time>
+      {/* to add time along with date
       <span aria-hidden="true"> | </span>
       <span className="sr-only">&nbsp;at&nbsp;</span>
-      <span className="text-nowrap">{time}</span>
+      <span className="text-nowrap">{time}</span> */}
     </>
   );
 };

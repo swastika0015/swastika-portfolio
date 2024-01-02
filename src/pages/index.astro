@@ -106,35 +106,47 @@ const socialCount = SOCIALS.filter(social => social.active).length;
                 )
             )
         }
-
-    <section id="recent-posts">
-      <h2>Projects</h2>
-      <ul>
-        {
-          sortedProjects
-            .map(
-              ({ data, slug, link }, index) =>
-                index < 4 && (
-                  <Card
-                    href={`${link}`}
-                    frontmatter={data}
-                    secHeading={false}
-                  />
+        <div class="all-posts-btn-wrapper">
+          <LinkButton href="/posts">
+            All Blogs
+            <svg xmlns="http://www.w3.org/2000/svg"
+              ><path
+                d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"
+              ></path>
+            </svg>
+          </LinkButton>
+        </div>
+        <Hr />
+        
+        <div id="projects">
+          <h2>Projects</h2>
+          <ul>
+            {
+              sortedProjects
+                .map(
+                  ({ data, slug, link }, index) =>
+                    index < 4 && (
+                      <Card
+                        href={`${link}`}
+                        frontmatter={data}
+                        secHeading={false}
+                      />
+                    )
                 )
-            )
-        }
-      </ul>
-      
-      <div class="all-posts-btn-wrapper">
-        <LinkButton href="/posts">
-          All Blogs
-          <svg xmlns="http://www.w3.org/2000/svg"
-            ><path
-              d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"
-            ></path>
-          </svg>
-        </LinkButton>
-      </div>
+            }
+          </ul>
+
+          <div class="all-posts-btn-wrapper">
+            <LinkButton href="/posts">
+              All Blogs
+              <svg xmlns="http://www.w3.org/2000/svg"
+                ><path
+                  d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"
+                ></path>
+              </svg>
+            </LinkButton>
+          </div>
+        </div>
     </section>
   </main>
 
@@ -168,6 +180,9 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   /* ===== Featured & Recent Posts Sections ===== */
   #featured,
   #recent-posts {
+    @apply pb-6 pt-12 ;
+  }
+  #projects{
     @apply pb-6 pt-12;
   }
   #featured h2,

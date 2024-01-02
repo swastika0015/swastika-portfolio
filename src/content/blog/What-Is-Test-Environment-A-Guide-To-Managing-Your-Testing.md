@@ -1,9 +1,9 @@
 ---
 author: Sat Naing
 pubDatetime: 2022-08-26T04:58:53Z
-title: What Is Test Environment? A Guide To Managing Your Testing
-slug: how-to-configure-astropaper-theme
-link: "n"
+title: What Is Test Environment A Guide To Managing Your Testing
+slug: What-Is-Test-Environment-A-Guide-To-Managing-Your-Testing
+link: https://www.lambdatest.com/blog/what-is-test-environment/
 featured: true
 draft: false
 tags:

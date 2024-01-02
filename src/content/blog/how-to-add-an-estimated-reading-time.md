@@ -8,7 +8,12 @@ link: https://medium.com/chiselstrike/create-a-todo-list-with-turso-and-next-js-
 featured: false
 draft: false
 tags:
-  - FAQ
+  - nextjs
+  - reactjs
+  - fullstack
+  - dastabase
+  - backend
+  - frontend
 description: A tutorial about creating a todo list app using Next.js and Turso, an Edge database based on SQLite.
 ---
 
