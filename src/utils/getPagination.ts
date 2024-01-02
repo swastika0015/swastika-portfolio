@@ -22,7 +22,7 @@ const getPagination = <T>({
     : 0;
 
   // Adjust the number of posts per page here
-  const postsPerPage = 10; // Change this value based on the number of posts you want per page
+  const postsPerPage = 6; // Change this value based on the number of posts you want per page
 
   const lastPost = isIndex ? postsPerPage : currentPage * postsPerPage;
   const startPost = isIndex ? 0 : lastPost - postsPerPage;
