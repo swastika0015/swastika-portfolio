@@ -3,15 +3,12 @@ title: Radiant UI
 author: Swastika Yadav
 pubDatetime: 2022-03-25T16:55:12.000+00:00
 slug: radiant-ui
-number: 3
+number: 4
 link: https://github.com/swastika0015/Radiant-UI
 featured: false
 draft: false
 tags:
-  - NextJS
-  - TailwindCSS
-  - HeadlessCMS
-  - Blog
+  - web app
 description: "RADIANT UI is a component library which provides a robust, customizable, and accessible library of components, enabling you to build your own design system and develop applications faster."
 ---
 

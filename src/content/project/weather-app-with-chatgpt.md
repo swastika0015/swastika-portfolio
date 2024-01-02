@@ -1,6 +1,6 @@
 ---
 author: Swastika Yadav
-pubDatetime: 2022-09-26T12:13:24Z
+pubDatetime: 2023-12-01T12:13:24Z
 title: Weather app pwith ChatGPT
 slug: weather-app-with-chatgpt
 number: 1
